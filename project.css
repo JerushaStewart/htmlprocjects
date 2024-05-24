@@ -1,0 +1,68 @@
+p {
+  font-size: 19.5px;
+  margin: 5px auto;
+}
+
+#title, #description {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+   border: 3px solid rgba(126, 115, 255, .97);
+  border-radius: 1%;
+  padding: 4px;
+  background-color:rgba(126, 115, 255, .97);
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+label {
+  margin-bottom:auto;
+}
+
+input, textarea {
+  background-color: white;
+  border: 1px solid white;
+  color: #ffffff;
+}
+.inline {
+  width: unset;
+  margin: 0 0.3em 0 0;
+  vertical-align: middle;
+}
+
+label {
+  display:block;
+  margin: 0.3rem 0;
+  font-weight: bold;
+}
+
+input[type="submit"]{
+width: 50%;
+margin:1em auto;
+display:block;
+}
+
+#title, #description {
+  margin:auto;
+  padding-bottom: 1px;
+}
+
+ html{
+   background-image: url('https://static.vecteezy.com/system/resources/thumbnails/010/839/386/small_2x/aesthetic-minimal-cute-pastel-pink-wallpaper-illustration-perfect-for-wallpaper-backdrop-postcard-background-banner-vector.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed; 
+}
