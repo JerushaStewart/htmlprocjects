@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<title>Best Style Survey</title>
+<body>
+<h1 id="title">Your Style Your Way</h1>  
+
+<p id="description">Select your clothing style and than a style you would like to try</p>
+<!---comment--->
+<form class="form" id="survey-form">
+  <label id="name-label"> First & Last Name
+  <input  type="text" id="name" placeholder="First and Last" required></label>
+  <label id="email-label"> Email
+  <input " type="email" id="email" placeholder="Y2K@email.com" required></label>
+  <label id="number-label"> Your Name
+  <input  type="number" min="10" max="20" placeholder="#"id="number" required></label>
+  <input label="age-label" type="date" max="2006-12-31" id="age" required>
+  <select id="dropdown">
+  <option>Y2K</option>
+  <option>Emo</option>
+  <option>Fairycore</option>
+  <option>Cottagecore</option>
+  </select>
+
+<p> Do you think emo hate is unwarranted?</p>
+  
+  <label name="stuff"><input class="inline" name="stuff" type="radio" value="food">YES!</label>
+   
+<label name="stuff"><input class="inline" name="stuff" type="radio" value="nfood">
+ NO</label><hr>
+
+<p> Styles you would like to try</p>
+  <label name="checkbox" value="Y2K"><input class="inline" name="checkbox" type="checkbox" value="Y2K">
+  Y2K </label>
+  <label name="checkbox" value="CC"><input class="inline" name="checkbox" type="checkbox" value="Y2K">
+  Cottage Core </label>
+
+  <p> Do you like being able to put a name to your style? Why?</p>
+    <textarea id="survey-form" name="text"> </textarea>
+  <input id="submit" type="submit">
+</form>
+</body>
